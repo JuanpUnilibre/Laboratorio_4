@@ -1,5 +1,5 @@
 body {
-    font-family: Lucida, sans-serif;
+    font-family: Tahoma;
     margin: 0;
     padding: 0;
 }
@@ -11,11 +11,25 @@ header {
     padding: 20px;
 }
 
+nav a{
+    margin: 0 15px;
+    text-align: center;
+    width:100%;
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover{
+    color: #9e0000;
+
+}
+
 .imagen_fresa {
     width: 15%;
     height: "100";
     border-radius: 10px 60px 30px;
     transition: all .3s;
+    margin: 10px;
 }
 
 .imagen_fresa:hover{
@@ -62,10 +76,13 @@ header {
     color: black;
 }
 
-.razon{
+.razon {
     width: 300px;
     height: 100px;
-    text-align: center;
+}
+
+.formulario{
+    background-color: #b6b1b1;
 }
 
 main {

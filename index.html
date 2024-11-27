@@ -12,6 +12,14 @@
         <h2>Los mejores helados y fresas con crema</h2>
     </header>
     <main>
+        
+        <nav>		
+			<a href="#productos">Productos</a>
+			<a href="#imagenes_referencia">Imagenes de referencia</a>
+			<a href="#nosotros">Nosotros</a>
+			<a href="#contacto">Contacto</a>
+		</nav>
+        
         <section id="productos">
             <h2>Nuestros Productos</h2>
             <ul>
@@ -21,7 +29,7 @@
             </ul>
         </section>
         
-        <section id="imagenes de referencia">
+        <section id="imagenes_referencia">
             <img src="fresa_pequeña.png" class="imagen_fresa" alt="Vaso corto con fresas">
             <img src="fresa_grande.png" class = "imagen_fresa" alt="Vaso largo">
             <img src="fresa_elegante.png" class="imagen_fresa" alt="Vaso fino">
@@ -47,25 +55,28 @@
 
             <p>¿Desea contactarnos? Llene y envíe el siguiente formulario por favor: </p>
 
-            <form>
+            <form class="formulario">
                 <fieldset>
                     <legend>Datos de contacto</legend>               
                         <br>
                         <label>Primer nombre: </label>
-                        <input type="text" name="fname" placeholder="Ingresa tu nombre" required>
+                        <input type="text" name="fname" placeholder="Ingresa tu nombre">
     
                         <br><br>
     
                         <label>Primer apellido: </label>
                         <input type="text" name="lname" placeholder="Ingresa tu apellido">
+                        
                         <br><br>
     
                         <label>Correo electrónico: </label>
-                        <input type="email" name="email" placeholder="**@**.com">
+                        <input type="email" name="email" placeholder="**@**.com" required>
+                        
                         <br><br>
 
                         <label>Razón de contacto: </label>
-                        <input type="text" name="razon" placeholder="Escriba aqui su razon para contactarnos" class="razon">
+                        <input type="text" name="razon_contacto" placeholder="Escriba aqui su razon para contactarnos" class="razon" required>
+                        
                         <br><br>
 
                         <input type="submit" value="Enviar">
