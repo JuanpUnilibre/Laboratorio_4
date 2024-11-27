@@ -1,0 +1,71 @@
+body {
+    font-family: Lucida, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    color: white;
+    background: linear-gradient(0deg, #731212 0%, #eb1414 80%);
+    text-align: center;
+    padding: 20px;
+}
+
+.imagen_fresa {
+    width: 15%;
+    height: "100";
+    border-radius: 10px 60px 30px;
+    transition: all .3s;
+}
+
+.imagen_fresa:hover{
+    transform: scale(1.1);
+}
+
+.prototype {
+    background-color: #0c0c0c;
+    border: none;
+    color: white;
+    padding: 12px 32px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 8px;
+    box-shadow: 0px 16px 8px rgba(0, 0, 0, 0.2);
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.prototype:hover {
+    background-color: #9e0000;
+    color: white;
+}
+
+.boton_personal{
+    background-color: #030303;
+    border: none;
+    color: white;
+    padding: 12px 32px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 8px;
+    box-shadow: 0px 16px 8px rgba(0, 0, 0, 0.2);
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.boton_personal:hover{
+    background: radial-gradient(#11ff00 0%, #0bdfef 100%);
+    color: black;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
