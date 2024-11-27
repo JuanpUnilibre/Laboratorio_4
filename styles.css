@@ -62,6 +62,12 @@ header {
     color: black;
 }
 
+.razon{
+    width: 300px;
+    height: 100px;
+    text-align: center;
+}
+
 main {
     padding: 20px;
 }
