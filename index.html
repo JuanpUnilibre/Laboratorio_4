@@ -7,9 +7,9 @@
     <link rel="stylesheet" href="styles.css">
     <script>
         function validarFormulario(){
-            let nombre=document.getElementById("nombre").value;
+            let nombre=document.getElementById("razon_contacto").value;
             if(nombre==""){
-                alert("Por favor, ingresa tu nombre.");
+                alert("Si deseas enviar el formulario por favor, ingresa tu razon de contacto.");
                 return false;
             }
             return true;
@@ -47,7 +47,7 @@
         
         <section id="acciones">
             <br><br>
-            <button class="prototype">Haz un pedido personalizado</button>
+            <button onclick="mostrar_mensaje()" class="prototype">Haz un pedido personalizado</button>
             <button class="boton_personal">Crear producto aleatorio </button>
             <br><br>
         </section>
@@ -70,7 +70,7 @@
                     <legend>Datos de contacto</legend>               
                         <br>
                         <label>Primer nombre: </label>
-                        <input type="text" name="nombre" id="nombre" placeholder="Ingresa tu nombre">
+                        <input type="text" name="nombre" id="nombre" placeholder="Ingresa tu nombre" required>
     
                         <br><br>
     
@@ -85,7 +85,7 @@
                         <br><br>
 
                         <label>Razón de contacto: </label>
-                        <input type="text" name="razon_contacto" placeholder="Escriba aqui su razon para contactarnos" class="razon" required>
+                        <input type="text" name="razon_contacto" placeholder="Escriba aqui su razon para contactarnos" class="razon">
                         
                         <br><br>
 
