@@ -5,6 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Delifresas - Helados y Fresas con Crema</title>
     <link rel="stylesheet" href="styles.css">
+    <script>
+        function validarFormulario(){
+            let nombre=document.getElementById("nombre").value;
+            if(nombre==""){
+                alert("Por favor, ingresa tu nombre.");
+                return false;
+            }
+            return true;
+        }
+    </script>
 </head>
 <body>
     <header>
@@ -55,12 +65,12 @@
 
             <p>¿Desea contactarnos? Llene y envíe el siguiente formulario por favor: </p>
 
-            <form class="formulario">
+            <form class="formulario" onsubmit="return validarFormulario()" >
                 <fieldset>
                     <legend>Datos de contacto</legend>               
                         <br>
                         <label>Primer nombre: </label>
-                        <input type="text" name="fname" placeholder="Ingresa tu nombre">
+                        <input type="text" name="nombre" id="nombre" placeholder="Ingresa tu nombre">
     
                         <br><br>
     
