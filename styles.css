@@ -6,7 +6,7 @@ body {
 
 header {
     color: white;
-    background: linear-gradient(0deg, #731212 0%, #eb1414 80%);
+    background: linear-gradient(0deg, #e18989 0%, #e78383 100%);
     text-align: center;
     padding: 20px;
 }
@@ -83,13 +83,41 @@ nav a:hover{
     color: black;
 }
 
+.formulario{
+    background-color: #ffffff;
+}
+
+.inputs{
+    border-color: solid gray;
+}
+
 .razon {
     width: 300px;
     height: 100px;
 }
 
-.formulario{
-    background-color: #b6b1b1;
+.boton_enviar{
+    background-color: #ec9090;
+    border: 1px;
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.div_main{
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.div_contacto{
+    border-radius: 30px;
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+}
+
+.div_contacto span{
+    color: red;
 }
 
 main {
@@ -104,3 +132,4 @@ section {
 footer{
     text-align: center;
 }
+
