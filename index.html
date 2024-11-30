@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="styles.css">
     <script>
         function validarFormulario(){
-            let nombre=document.getElementById("razon_contacto").value;
-            if(nombre==""){
+            let razon=document.getElementById("razon").value;
+            if(razon==""){
                 alert("Si deseas enviar el formulario por favor, ingresa tu razon de contacto.");
                 return false;
             }
@@ -85,7 +85,7 @@
                     <br><br>
 
                     <label>Razón de contacto<span>*</span></label> <br>
-                    <input type="text" name="razon_contacto" placeholder="Escriba aqui su razon para contactarnos" class="razon">
+                    <input type="text" name="razon" placeholder="Escriba aqui su razon para contactarnos" class="razon" required>
                     
                     <br><br>
 
